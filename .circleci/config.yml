@@ -97,7 +97,7 @@ jobs:
       - run:
           name: creating docker image..considering using env vars DOCKER_USER and DOCKER_PASS
           command: |
-            docker login --username tylertravismya --password 00Corvette 
+            docker login --username tylertravismya --password 00Corvette!! 
             docker build -t theharbormaster/cmi-energy:latest -f Dockerfile .
             docker push theharbormaster/cmi-energy:latest
 
